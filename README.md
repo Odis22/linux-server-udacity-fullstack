@@ -1,6 +1,6 @@
 # linux-server-udacity-fullstack
 
-ip connection: 35.164.220.5
+ip connection: 35.166.84.180
 
 After logging in to the server this is what I did :
 
@@ -22,7 +22,7 @@ Enter the new value, or press ENTER for the default
     Other []:
 Is the information correct? [Y/n]
 
-The user is grader and the password is grader!1234
+The user is grader and the password is burrito1
 
 4. Give the grader the permission to sudo
 
@@ -68,7 +68,7 @@ Add user "catalog" and database "catalog" use this command
 su - postgres
 psql
 
-CREATE USER catalog with PASSWORD 'catalog!1234';
+CREATE USER catalog with PASSWORD 'burrito1';
 
 CREATE DATABASE catalog OWNER catalog;
 
